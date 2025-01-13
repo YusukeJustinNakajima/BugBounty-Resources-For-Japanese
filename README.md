@@ -16,6 +16,33 @@
 # Timeline
 - 2025/01/13 初版公開
 
+# Table of Contents
+- [General](#general)
+- [XSS(Cross Site Scripting)](#xsscross-site-scripting)
+- [CSS Injection](#css-injection)
+- [CSRF(Cross-site request forgery)](#csrfcross-site-request-forgery)
+- [CORS(Cross-origin resource sharing) Bypass](#corscross-origin-resource-sharing-bypass)
+- [IDOR](#idor)
+- [SSRF(Server-side request forgery)](#ssrfserver-side-request-forgery)
+- [XXE(XML external entity)](#xxexml-external-entity)
+- [SSTI(Server Side Template Injection)](#sstiserver-side-template-injection)
+- [Web Cache Poisoning](#web-cache-poisoning)
+- [Web Cache Deception](#web-cache-deception)
+- [HTTP Request Smuggling](#http-request-smuggling)
+- [Race Condition](#race-condition)
+- [Prototype Pollution](#prototype-pollution)
+- [GraphQL Attack](#graphql-attack)
+- [LLM Attack](#llm-attack)
+- [OAuth Bypass](#oauth-bypass)
+- [Timing Attack](#timing-attack)
+- [Email Vulnerability](#email-vulnerability)
+- [Password Reset](#password-reset)
+- [Rate Limit Bypass](#rate-limit-bypass)
+- [File Upload Vulnerability](#file-upload-vulnerability)
+- [Amazon AWS](#amazon-aws)
+- [Mobile Hacking](#mobile-hacking)
+- [Others](#others)
+
 # Material List
 ## General 
 ### [バグバウンティ入門(始め方) - blog of morioka12](https://scgajge12.hatenablog.com/entry/bugbounty_beginner#%E3%83%90%E3%82%B0%E3%83%90%E3%82%A6%E3%83%B3%E3%83%86%E3%82%A3%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0)
@@ -220,7 +247,7 @@
 ### [Welcome to this time-based CTF.](https://www.listentothewhispers.net/)
 - "Listen to the whispers: web timing attacks that actually work"において提唱されたScored SSRF攻撃の知識を深めるためのCTF
 ### [plORMbing your Prisma ORM with Time-based Attacks](https://www.elttam.com/blog/plorming-your-primsa-orm/)
-- Prisma ORM(Object Relational Mapping)を用いたタイミング攻撃の事例
+- Prisma ORM(Object Relational Mapping)に対するタイミング攻撃の事例
 - ORやNOTなどのオペレータを組み合わせることで、データベースから情報を抽出(ORM Leak)することに成功。併せて、それらのペイロードを用いて情報を抽出するツール"plORMber"を公開。
 
 ## Email Vulnerability
@@ -276,7 +303,7 @@
 ### [Android Emulator Setup for PenTest Using Android Studio | by Rafel | MII Cyber Security Consulting Services | Medium](https://medium.com/mii-cybersec/android-emulator-setup-for-pentest-using-android-studio-4191ad8a0684)
 - Androidへのハッキングに必要なエミュレーターのセットアップ方法の紹介
 
-## Other
+## Others
 ### [Confusion Attacks: Exploiting Hidden Semantic Ambiguity in Apache HTTP Server! | Orange Tsai](https://blog.orange.tw/posts/2024-08-confusion-attacks-en/)
 - Orange TsaiさんによるBlack Hat USA 2024の発表
 - Apache HTTP Serverの各モジュール間がそれぞれの仕様を理解していないこと（整合性が取れていないこと）による脆弱性を数多く報告している
