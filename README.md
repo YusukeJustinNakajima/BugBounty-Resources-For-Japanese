@@ -15,7 +15,7 @@
 - [CSS Injection](#css-injection)
 - [CSRF(Cross-site request forgery)](#csrfcross-site-request-forgery)
 - [CORS(Cross-origin resource sharing) Bypass](#corscross-origin-resource-sharing-bypass)
-- [IDOR](#idor)
+- [IDOR(Insecure Direct Object References)](#idor)
 - [SSRF(Server-side request forgery)](#ssrfserver-side-request-forgery)
 - [XXE(XML external entity)](#xxexml-external-entity)
 - [SSTI(Server Side Template Injection)](#sstiserver-side-template-injection)
@@ -108,7 +108,7 @@
 #### [CORS Misconfiguration, could lead to disclosure of sensitive information](https://hackerone.com/reports/426165)
 - HackerOneに報告されたCORSの設定ミスによる機微情報漏洩の事例
 
-### IDOR
+### IDOR(Insecure Direct Object References)
 #### [Access control vulnerabilities and privilege escalation | Web Security Academy](https://portswigger.net/web-security/access-control)
 - アクセス制御の不備による脆弱性とは何か、多くの実践的なラボを交えながら詳細に解説している記事
 #### [Top 25 IDOR Bug Bounty Reports. In this article, we will discuss IDOR… | by Cristian Cornea | Medium](https://corneacristian.medium.com/top-25-idor-bug-bounty-reports-ba8cd59ad331)
