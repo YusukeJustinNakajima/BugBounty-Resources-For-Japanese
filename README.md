@@ -1,18 +1,18 @@
-# BugBounty-Resources-For-Japanese
+## BugBounty-Resources-For-Japanese
 バグバウンティに関する有益な記事やサイトをまとめたリポジトリ。各記事に簡単な紹介文を付与。
 
-# Disclaimer
+## Disclaimer
 - あくまで、筆者の所感で有益と感じた記事をリスト化しているので、本当に有益かどうかは各個人によります。
 - 私の趣味嗜好で読んだ記事（脆弱性）に偏りがあります。したがって、網羅性については考慮しておりません。
 - 記事ごとのコメントに誤りがある可能性があります。気づかれた場合には、遠慮なくご指摘ください。
 
-# Contribution
+## Contribution
 - 読んだ記事で有益と思ったものをぜひこのリポジトリで共有いただけると嬉しいです
 
-# Timeline
+## Timeline
 - 2025/01/13 初版公開
 
-# Table of Contents
+## Table of Contents
 - [General](#general)
 - [XSS(Cross Site Scripting)](#xsscross-site-scripting)
 - [CSS Injection](#css-injection)
@@ -39,12 +39,12 @@
 - [Mobile Hacking](#mobile-hacking)
 - [Others](#others)
 
-# Material List
-## General 
-### [バグバウンティ入門(始め方) - blog of morioka12](https://scgajge12.hatenablog.com/entry/bugbounty_beginner#%E3%83%90%E3%82%B0%E3%83%90%E3%82%A6%E3%83%B3%E3%83%86%E3%82%A3%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0)
+## Material List
+### General 
+#### [バグバウンティ入門(始め方) - blog of morioka12](https://scgajge12.hatenablog.com/entry/bugbounty_beginner#%E3%83%90%E3%82%B0%E3%83%90%E3%82%A6%E3%83%B3%E3%83%86%E3%82%A3%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0)
 - morioka12さんのバグバウンティの始め方に関する記事
 - 非常にわかりやすく、かつ、網羅的にバグバウンティについて知ることができる
-### [体系的に学ぶ 安全なWebアプリケーションの作り方 第2版](https://www.amazon.co.jp/%E4%BD%93%E7%B3%BB%E7%9A%84%E3%81%AB%E5%AD%A6%E3%81%B6-%E5%AE%89%E5%85%A8%E3%81%AAWeb%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9-%E7%AC%AC2%E7%89%88-%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%82%8B%E5%8E%9F%E7%90%86%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%AE%9F%E8%B7%B5-%E5%BE%B3%E4%B8%B8/dp/4797393165)
+#### [体系的に学ぶ 安全なWebアプリケーションの作り方 第2版](https://www.amazon.co.jp/%E4%BD%93%E7%B3%BB%E7%9A%84%E3%81%AB%E5%AD%A6%E3%81%B6-%E5%AE%89%E5%85%A8%E3%81%AAWeb%E3%82%A2%E3%83%97%E3%83%AA%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9-%E7%AC%AC2%E7%89%88-%E8%84%86%E5%BC%B1%E6%80%A7%E3%81%8C%E7%94%9F%E3%81%BE%E3%82%8C%E3%82%8B%E5%8E%9F%E7%90%86%E3%81%A8%E5%AF%BE%E7%AD%96%E3%81%AE%E5%AE%9F%E8%B7%B5-%E5%BE%B3%E4%B8%B8/dp/4797393165)
 - この界隈で非常に有名な書籍。サンプルが用意されているので、自分で手を動かしながら、代表的な脆弱性について理解を深めることがができる
 ### [リアルワールドバグハンティング ―ハッキング事例から学ぶウェブの脆弱性](https://www.amazon.co.jp/%E3%83%AA%E3%82%A2%E3%83%AB%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%90%E3%82%B0%E3%83%8F%E3%83%B3%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0-%E2%80%95%E3%83%8F%E3%83%83%E3%82%AD%E3%83%B3%E3%82%B0%E4%BA%8B%E4%BE%8B%E3%81%8B%E3%82%89%E5%AD%A6%E3%81%B6%E3%82%A6%E3%82%A7%E3%83%96%E3%81%AE%E8%84%86%E5%BC%B1%E6%80%A7-Peter-Yaworski/dp/4873119219/)
 - 様々な脆弱性の概要と実際の攻撃事例がまとまった書籍。辞書的に使うとよい。
