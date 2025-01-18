@@ -2,11 +2,8 @@
 バグバウンティに関する有益な記事やサイトに対して、簡単な紹介文を付与してまとめたリポジトリ
 
 ## Disclaimer
-- 私の趣味嗜好で読んだ記事（脆弱性）に偏りがあります。従って、網羅性については考慮しておりません。
+- 私の趣味嗜好で読んだ記事ですので、紹介している脆弱性に偏りがあります。
 - 記事ごとのコメントに誤りがある可能性があります。気づかれた場合には、遠慮なくご指摘ください。
-
-## Timeline
-- 2025/01/13 初版公開
 
 ## Table of Contents
 - [General](#general)
@@ -318,3 +315,6 @@
 - ペイロード作成ツール[REcollapse](https://github.com/0xacb/recollapse)を公開
 #### [Concealing payloads in URL credentials | PortSwigger Research](https://portswigger.net/research/concealing-payloads-in-url-credentials)
 - URLは様々な形式で指定することができ、クレデンシャル入力部分（@より前の部分）にXSSなどのペイロードを仕込むことが可能
+
+## Timeline
+- 2025/01/13 初版公開
